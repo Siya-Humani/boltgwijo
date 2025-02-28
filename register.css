@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body {
+    background-color: #274536;
+    font-family: sans-serif;
+    
+}
+
+.headline {
+    color: #fff;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    height: 40vh; 
+    text-align: center;
+    overflow: hidden;
+}
+
+.logo img {
+    width: auto;
+    height: 30px;
+    margin: 20px 20px;
+}
+
+p { 
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+h2 {
+    margin-top: 20px;
+    word-wrap: break-word;
+}
+
+h1 {
+    color: #24784d;
+    font-size: 40px;
+    word-wrap: break-word;
+
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 29px;
+    word-wrap: break-word;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #24784d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #24784d;
+}
+
+textarea {
+    resize: vertical;
+}
+
+::placeholder {
+    color: #888;
+}
+
+input:focus, textarea:focus {
+    border-color: #24784d;
+    outline: none;
+}
+
+
+@media (max-width: 600px) {
+    .form-container {
+        padding: 20px;
+        width: 90%; /* Adjust form width to 90% for smaller screens */
+    }
+
+    h2 {
+        font-size: 20px; /* Reduces font size of h2 for small screens */
+        word-wrap: break-word;
+
+    }
+
+    h1 {
+        font-size: 25px; /* Font size change for mobile devices */
+        color: #24784d; /* Keep color */
+        word-wrap: break-word;
+    }
+}
