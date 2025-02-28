@@ -9,8 +9,8 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #34BB78;
+    overflow-x: hidden;
 }
-
 
 /* Header Styles */
 header img {
