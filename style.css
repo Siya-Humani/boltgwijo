@@ -12,6 +12,7 @@ body {
     overflow-x: hidden;
 }
 
+
 /* Header Styles */
 header img {
     width: 45px;
@@ -203,7 +204,7 @@ footer .terms, footer .app {
     width: 100%;
 }
 
-.carousel-container {
+.carousel {
     position: relative;
     width: 100%;
     height: 100%;
@@ -211,28 +212,6 @@ footer .terms, footer .app {
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
-    overflow: hidden; /* Hide items outside of the container */
-
-}
-
-.carousel {
-    display: flex;
-    gap: 10px; /* Adjust this value to set the gap between videos */
-}
-
-.carousel-item {
-    width: 100%; /* Adjust as per your preference */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure videos fit without stretching */
-}
-
-
-.prev {
-    left: 10px;
-}
-
-.next {
-    right: 10px;
 }
 
 .timer {
