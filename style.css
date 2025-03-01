@@ -358,7 +358,7 @@ footer .sectionthree .app {
     }
 
     footer .logo img {
-        width: 80px;
+        width: 100%;
         height: auto;
     }
 
@@ -371,14 +371,14 @@ footer .sectionthree .app {
     }
 
     .main img {
-        width: 500px; /* Ensure the image is responsive */
+        width: 800px; /* Ensure the image is responsive */
         height: auto;
         margin-top: 10%;
     }
 
     .main p {
         width: 100%;
-        height: 50%;
+        height: auto;
         font-size: 15px;
 }
 
