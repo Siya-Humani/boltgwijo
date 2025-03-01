@@ -33,7 +33,7 @@ header img {
 
 .main img {
     margin-top: 5%;
-    max-width: 55%; /* Ensure the image never exceeds the width of its container */
+    max-width: 65%; /* Ensure the image never exceeds the width of its container */
     height: auto;
 }
 
