@@ -284,11 +284,11 @@ footer .logo img {
 
 footer .social-media {
     display: flex;
-    gap: 15px; /* Space between icons */
+    gap: 20px; /* Space between icons */
 }
 
 footer .social-media img {
-    width: 40px; /* Set a default size for social media icons */
+    width: 35px; /* Set a default size for social media icons */
     height: auto;
 }
 
