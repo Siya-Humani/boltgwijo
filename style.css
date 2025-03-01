@@ -27,7 +27,7 @@ header img {
 
 .main img {
     margin-top: 5%;
-    max-width: 75%; /* Ensure the image never exceeds the width of its container */
+    max-width: 70%; /* Ensure the image never exceeds the width of its container */
     height: auto;
 }
 
@@ -358,7 +358,7 @@ footer .sectionthree .app {
     }
 
     footer .logo img {
-        width: 100%;
+        width: 50%;
         height: auto;
     }
 
@@ -373,11 +373,11 @@ footer .sectionthree .app {
     .main img {
         width: 800px; /* Ensure the image is responsive */
         height: auto;
-        margin-top: 15%;
+        margin-top: 25%;
     }
 
     .main p {
-        width: 100%;
+        width: 80%;
         height: auto;
         font-size: 15px;
 }
