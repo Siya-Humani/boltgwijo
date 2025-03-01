@@ -372,7 +372,7 @@ footer .sectionthree .app {
     }
 
     .main img {
-        width: 800px; /* Ensure the image is responsive */
+        width: 100%; /* Ensure the image is responsive */
         height: auto;
         margin-top: 25%;
     }
@@ -380,8 +380,7 @@ footer .sectionthree .app {
     .main p {
         width: 80%;
         height: auto;
-        font-size: 25px;
-        line-height: 1.6px;
+        font-size: 20px;
 }
 
 /* Media Query for Mobile */
