@@ -1,1 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-color: #274536; /* Background color */
+    display: flex;
+    flex-direction: column; /* Stacking elements vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white; /* White text to contrast with the dark background */
+    position: relative;
+}
+
+h1 {
+    font-size: 40px; /* Larger heading font size */
+    color: white;
+    z-index: 2; /* Ensure heading stays above the icon */
+    margin-bottom: 20px; /* Add some spacing between the heading and the icon */
+}
+
+p {
+    color: white;  /* White text for paragraph */
+    font-size: 18px;
+}
+
+i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.2); /* Lightened white for the microphone icon */
+    font-size: 550px; /* Adjust the size of the icon */
+    z-index: 1; /* Position icon behind the text */
+    pointer-events: none; /* Ensures the icon doesn't block interactions with other elements */
+}
+
+
+.logo {
+    width: 150px;  /* Adjust the width of the logo */
+    margin-bottom: 20px; /* Space between the logo and the heading */
+}
+
+/* Media Queries for Mobile Devices */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 32px; /* Adjusted font size for mobile */
+    }
+
+    i {
+        font-size: 140px; /* Slightly smaller microphone icon on mobile */
+    }
+
+    p {
+        font-size: 16px; /* Adjusted paragraph font size for mobile */
+    }
+
+    .logo {
+        width: 130px;  /* Adjust logo size for mobile */
+        margin-bottom: 15px; /* Adjust space between the logo and the heading */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 28px; /* Smaller font size for very small screens */
+    }
+
+    i {
+        font-size: 335px; /* Further reduced icon size on small screens */
+    }
+
+    p {
+        font-size: 14px; /* Smaller paragraph font size */
+    }
+
+    .logo {
+        width: 100px;  /* Further reduced logo size for very small screens */
+        margin-bottom: 10px; /* Adjust space between the logo and the heading */
+    }
+}
+
+
+
+
 
