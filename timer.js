@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-const targetDate = new Date("March 1, 2025 00:00:00").getTime();
+const targetDate = new Date("March 17, 2025 00:00:00").getTime();
 
 // Update the countdown every 1 second
 const timer = setInterval(function() {
@@ -22,7 +22,7 @@ const timer = setInterval(function() {
     // If the countdown is finished, display a message
     if (timeLeft < 0) {
         clearInterval(timer);
-        document.getElementById("countdown").innerHTML = "TIME'S UP!";
+        document.getElementById("countdown").innerHTML = "ENTRIES CLOSED!";
     }
 }, 1000);
 
