@@ -60,6 +60,11 @@ p {
     line-height: 25px;
 }
 
+.bold-hashtag {
+    font-weight: bold;
+    color: #274536; /* Adds the specified color */
+}
+
 .highlight {
     font-weight: bold;
     color: #34BB78;
