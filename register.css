@@ -66,7 +66,7 @@ h2 {
 }
 
 input[type="text"], input[type="email"], textarea {
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,7 +79,7 @@ input[type="text"], input[type="email"], textarea {
 }
 
 input[type="submit"] {
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,8 +116,7 @@ input:focus, textarea:focus {
         display: flex;
         justify-content: center;
         align-items: center;
-        
-        width: 80%; /* Adjust form width to 90% for smaller screens */
+        width: 100%; /* Adjust form width to 90% for smaller screens */
     }
 
     h2 {
