@@ -419,6 +419,10 @@ footer .sectionthree .app {
     #countdown {
         gap: 10px; /* Reduce the gap between the time boxes even more */
     }
+
+    h1 {
+        font-size: 30px;
+        font-color: #fff;
 }
 
 /* Media Query for larger screens */
