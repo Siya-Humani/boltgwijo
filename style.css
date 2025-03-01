@@ -358,7 +358,7 @@ footer .sectionthree .app {
     }
 
     footer .logo img {
-        width: 50%;
+        width: 25px;
         height: auto;
     }
 
@@ -379,7 +379,8 @@ footer .sectionthree .app {
     .main p {
         width: 80%;
         height: auto;
-        font-size: 15px;
+        font-size: 25px;
+        line-height: 1.6px;
 }
 
 /* Media Query for Mobile */
