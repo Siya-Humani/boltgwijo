@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+.container, .challenge, .prompt, .timerblock, .button {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease-in-out, visibility 0s 0.5s;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #34BB78;
@@ -78,6 +84,7 @@ p {
     height: 15vh;
     margin-top: 30px;
     padding: 30px;
+    transition: opacity 0.5s ease-in-out;
 }
 
 .button {
@@ -162,6 +169,12 @@ p {
 .block1 p, .block2 p, .block3 p, .block4 p {
     font-size: 16px;
     color: #333;
+}
+
+.container, .prompt, .timerblock {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease-in-out, visibility 0s 0.5s;
 }
 
 .winners {
