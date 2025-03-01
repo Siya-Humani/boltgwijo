@@ -385,8 +385,8 @@ footer .sectionthree .app {
     }
 
     .time-box {
-        width: 60px; /* Smaller width for the time boxes */
-        height: 60px; /* Smaller height for the time boxes */
+        width: 50px; /* Smaller width for the time boxes */
+        height: 50px; /* Smaller height for the time boxes */
     }
 
     .time-number {
