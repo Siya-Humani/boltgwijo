@@ -335,6 +335,7 @@ footer .sectionthree .app {
     footer {
         flex-direction: column;
         align-items: center;
+        height: auto;
     }
 
     footer .social-media {
