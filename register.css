@@ -90,7 +90,6 @@ input[type="submit"] {
     border-radius: 10px;
     cursor: pointer;
     font-size: 16px;
-    padding-bottom: 20px;
 }
 
 input[type="submit"]:hover {
@@ -114,7 +113,6 @@ input:focus, textarea:focus {
 @media (max-width: 600px) {
     .form-container {
         padding: 20px;
-        padding-bottom:20px;
         display: flex;
         justify-content: center;
         align-items: center;
