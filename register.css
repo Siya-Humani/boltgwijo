@@ -108,6 +108,7 @@ input:focus, textarea:focus {
 @media (max-width: 600px) {
     .form-container {
         padding: 20px;
+        padding-bottom:20px;
         width: 70%; /* Adjust form width to 90% for smaller screens */
     }
 
