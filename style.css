@@ -346,12 +346,12 @@ footer .sectionthree .app {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     background-color: #274536;
     color: white;
     border-radius: 10px;
-    font-size: 9px; /* Adjust number size */
+    font-size: 3px; /* Adjust number size */
     position: relative; /* So the labels can be positioned outside */
 }
 
