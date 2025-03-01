@@ -53,7 +53,7 @@ h1 {
 h2 {
     color: #fff;
     font-weight: bolder;
-    font-size: 50%;
+    font-size: 50px;
 }
 
 p {
@@ -160,7 +160,7 @@ p {
 
 .block1, .block2, .block3, .block4 {
     background-color: white;
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
     max-width: 600px;
     margin: 20px auto;
@@ -346,8 +346,8 @@ footer .sectionthree .app {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     background-color: #274536;
     color: white;
     border-radius: 10px;
@@ -404,8 +404,8 @@ footer .sectionthree .app {
     }
 
     .time-box {
-        width: 50px; /* Even smaller time boxes */
-        height: 50px; /* Smaller height for the time boxes */
+        width: 60px; /* Even smaller time boxes */
+        height: 60px; /* Smaller height for the time boxes */
     }
 
     .time-number {
