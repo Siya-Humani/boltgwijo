@@ -56,7 +56,7 @@ h2 {
 }
 
 .form {
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,7 +66,7 @@ h2 {
 }
 
 input[type="text"], input[type="email"], textarea {
-    width: 100%;
+    width: 80%;
     padding: 12px;
     margin: 8px 0;
     border: 1px solid #ccc;
@@ -76,7 +76,7 @@ input[type="text"], input[type="email"], textarea {
 }
 
 input[type="submit"] {
-    width: 100%;
+    width: 80%;
     padding: 12px;
     background-color: #24784d;
     color: white;
@@ -84,6 +84,7 @@ input[type="submit"] {
     border-radius: 10px;
     cursor: pointer;
     font-size: 16px;
+    padding-bottom: 20px;
 }
 
 input[type="submit"]:hover {
@@ -107,7 +108,7 @@ input:focus, textarea:focus {
 @media (max-width: 600px) {
     .form-container {
         padding: 20px;
-        width: 90%; /* Adjust form width to 90% for smaller screens */
+        width: 80%; /* Adjust form width to 90% for smaller screens */
     }
 
     h2 {
