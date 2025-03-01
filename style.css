@@ -53,7 +53,7 @@ h1 {
 h2 {
     color: #fff;
     font-weight: bolder;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 p {
@@ -376,6 +376,12 @@ footer .sectionthree .app {
 @media (max-width: 768px) {
     #countdown-header {
         font-size: 20px; /* Smaller header font size */
+    }
+    
+    h2 {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 28px;
     }
 
     .time-box {
