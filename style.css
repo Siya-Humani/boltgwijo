@@ -60,6 +60,10 @@ p {
     line-height: 25px;
 }
 
+.highlight {
+    font-weight: bold;
+    color: #34BB78;
+}
 .challenge {
     display: flex;
     flex-direction: column;
