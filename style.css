@@ -351,7 +351,7 @@ footer .sectionthree .app {
     background-color: #274536;
     color: white;
     border-radius: 10px;
-    font-size: 36px; /* Adjust number size */
+    font-size: 3px; /* Adjust number size */
     position: relative; /* So the labels can be positioned outside */
 }
 
