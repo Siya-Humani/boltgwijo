@@ -65,6 +65,7 @@ h2 {
     border-radius: 10px;
     color: #fff;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 input[type="text"], input[type="email"], textarea {
@@ -109,7 +110,7 @@ input:focus, textarea:focus {
 @media (max-width: 600px) {
     .form-container {
         padding: 20px;
-        width: 100%; /* Adjust form width to 90% for smaller screens */
+        width: 80%; /* Adjust form width to 90% for smaller screens */
     }
 
     h2 {
