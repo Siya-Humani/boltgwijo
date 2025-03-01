@@ -76,6 +76,7 @@ p {
     font-weight: bold;
     color: #34BB78;
 }
+
 .challenge {
     display: flex;
     flex-direction: column;
@@ -379,9 +380,9 @@ footer .sectionthree .app {
     }
     
     h2 {
-    color: #fff;
-    font-weight: bolder;
-    font-size: 28px;
+       color: #fff;
+       font-weight: bolder;
+       font-size: 28px;
     }
 
     .time-box {
@@ -430,6 +431,13 @@ footer .sectionthree .app {
     h2 {
         font-size: 30px;
         font-color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+    .main img {
+        width: 80%; /* Further reduce image width for small screens */
+        margin-top: 10%; /* Adjust margin-top for small mobile screens */
+    }
 }
 
 /* Media Query for larger screens */
@@ -493,7 +501,7 @@ footer .sectionthree .app {
     }
 
     .main p {
-        width: 60%;
+        width: 70%;
         height: auto;
         font-size: 20px;
 }
