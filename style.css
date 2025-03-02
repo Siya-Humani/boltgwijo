@@ -39,8 +39,9 @@ header img {
 }
 
 .main p {
+    margin-top:5px;
     max-width: 1000px;
-    font-size: 18px;
+    width: 100%;
 }
 
 h1 {
