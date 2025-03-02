@@ -61,7 +61,7 @@ p {
 }
 
 /* Ensure the icon appears above main content */
-.main-content {
+.main {
     display: flex;
     flex-direction: column;
     justify-content: center;
