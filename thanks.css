@@ -1,11 +1,11 @@
 body {
     font-family: "Roboto", "sans-serif";
+    background-color: #274536;
 }
 
 .main {
     text-align: center;
     padding: 50px;
-    background-color: #274536;
     display: flex;
     flex-direction: column;
     justify-content: center;
