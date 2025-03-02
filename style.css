@@ -25,12 +25,10 @@ header img {
 
 .main {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 80%
-    height: auto;
 }
 
 .main img {
@@ -444,7 +442,7 @@ footer .sectionthree .app {
 
     .main p {
         font-size: 18px;
-        width: 90%;
+        width: 100%;
     }
 }
 
@@ -512,6 +510,7 @@ footer .sectionthree .app {
         width: 60%;
         height: auto;
         font-size: 18px;
+    }
 }
 
 /* Media Query for Mobile */
