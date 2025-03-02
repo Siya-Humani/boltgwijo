@@ -31,7 +31,7 @@ body {
 
 p { 
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -51,7 +51,7 @@ h2 {
     text-align: center;
     color: #fff;
     margin-bottom: 20px;
-    font-size: 29px;
+    font-size: 32px;
     word-wrap: break-word;
 }
 
@@ -120,7 +120,7 @@ input:focus, textarea:focus {
     }
 
     h1 {
-        font-size: 25px; /* Font size change for mobile devices */
+        font-size: 28px; /* Font size change for mobile devices */
         color: #24784d; /* Keep color */
         word-wrap: break-word;
     }
