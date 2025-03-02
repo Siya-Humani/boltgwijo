@@ -33,12 +33,11 @@ header img {
 
 .main img {
     margin-top: 5%;
-    max-width: 75%; /* Ensure the image never exceeds the width of its container */
+    max-width: 70%; /* Ensure the image never exceeds the width of its container */
     height: auto;
 }
 
 .main p {
-    max-width: 850px; /* Optional: limits the width of the paragraph for readability */
     line-height: 1.6; /* Optional: adjusts the line height for readability */
 }
 
