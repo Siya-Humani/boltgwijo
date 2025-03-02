@@ -23,8 +23,9 @@ h1 {
 p {
     color: white; 
     font-size: 18px;
-    padding-left:5%;
-    padding-right:5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: 400;
 }
 
 i {
