@@ -40,14 +40,9 @@ header img {
 }
 
 .main p {
-    max-width: 850px;
+    max-width: 1000px;
     line-height: 1.6;
     font-size: 20px;
-    display: flex;
-    color: #fff;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
 h1 {
