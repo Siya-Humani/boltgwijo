@@ -12,6 +12,11 @@ body {
     position: relative;
 }
 
+header img {
+    width: 95px;
+    height: auto;
+}
+
 h1 {
     font-size: 40px;
     color: white;
@@ -40,10 +45,6 @@ p {
 }
 
 
-.logo {
-    width: 150px;  /* Adjust the width of the logo */
-    margin-bottom: 20px; /* Space between the logo and the heading */
-}
 
 /* Media Queries for Mobile Devices */
 @media screen and (max-width: 768px) {
@@ -56,7 +57,7 @@ p {
     }
 
     i {
-        font-size: 140px; /* Slightly smaller microphone icon on mobile */
+        font-size: 60px; /* Slightly smaller microphone icon on mobile */
     }
 
     p {
