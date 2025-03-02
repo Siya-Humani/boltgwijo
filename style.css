@@ -437,6 +437,10 @@ footer .sectionthree .app {
         width: 70%; /* Further reduce image width for small screens */
         margin-top: 10%; /* Adjust margin-top for small mobile screens */
     }
+
+    .main p {
+        font-size: 18px;
+        width: 60%;
 }
 
 /* Media Query for larger screens */
@@ -493,15 +497,16 @@ footer .sectionthree .app {
         gap: 5px;
     }
 
-    .main img {
-        width: 100%;
+     .main img {
+        width: 90%; /* Ensure the image is responsive */
         height: auto;
+        margin-top: 25%;
     }
 
     .main p {
-        width: 70%;
+        width: 60%;
         height: auto;
-        font-size: 20px;
+        font-size: 18px;
 }
 
 /* Media Query for Mobile */
