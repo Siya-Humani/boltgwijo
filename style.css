@@ -25,20 +25,22 @@ header img {
 
 .main {
     display: flex;
-    flex-direction: column; /* Ensures the image and paragraph are stacked vertically */
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
-    text-align: center; /* Centers the text inside the container */
+    text-align: center;
 }
 
 .main img {
     margin-top: 5%;
-    max-width: 70%; /* Ensure the image never exceeds the width of its container */
+    max-width: 100%;
+    width: 60%;
     height: auto;
 }
 
 .main p {
-    line-height: 1.6; /* Optional: adjusts the line height for readability */
+    max-width: 1000px; 
+    width: 100%;
 }
 
 h1 {
