@@ -38,8 +38,16 @@ header img {
     height: auto;
 }
 
+.intro {
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .intro p {
-    margin-top:5px;
+    margin-top: 5px;
     max-width: 1000px;
     width: 100%;
 }
