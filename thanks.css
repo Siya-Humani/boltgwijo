@@ -67,7 +67,7 @@ p {
         font-size: 32px; /* Adjusted font size for mobile */
     }
 
-    i {
+    .icon img {
         font-size: 60px; /* Slightly smaller microphone icon on mobile */
     }
 
@@ -86,7 +86,7 @@ p {
         font-size: 28px; /* Smaller font size for very small screens */
     }
 
-    i {
+    .icon img {
         font-size: 335px; /* Further reduced icon size on small screens */
     }
 
