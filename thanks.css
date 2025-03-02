@@ -20,7 +20,7 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
-    height: 100vh;
+    height: 80vh;
     position: relative;
 }
 
@@ -40,8 +40,6 @@ h1 {
 p {
     color: white; 
     font-size: 18px;
-    padding-left: 5%;
-    padding-right: 5%;
     font-weight: 400;
 }
 
@@ -86,7 +84,11 @@ p {
     }
 
     p {
-        font-size: 18px; /* Adjusted paragraph font size for mobile */
+        font-size: 20px; /* Adjusted paragraph font size for mobile */
+    }
+
+    h3 {
+        font-size: 25px;
     }
 
     .logo {
@@ -98,6 +100,10 @@ p {
 @media screen and (max-width: 480px) {
     h1 {
         font-size: 28px; /* Smaller font size for very small screens */
+    }
+
+     h3 {
+        font-size: 20px;
     }
 
     .icon img {
