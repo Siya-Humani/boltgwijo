@@ -55,12 +55,12 @@ h1 {
     font-size: 50px;
     margin-bottom: 10px;
     color: #fff;
-    font-weight: bolder;
+    font-weight: 900;
 }
 
 h2 {
     color: #fff;
-    font-weight: bolder;
+    font-weight: 900;
     font-size: 40px;
 }
 
@@ -389,7 +389,7 @@ footer .sectionthree .app {
     
     h2 {
        color: #fff;
-       font-weight: bolder;
+       font-weight: 900;
        font-size: 28px;
     }
 
@@ -442,7 +442,8 @@ footer .sectionthree .app {
     }
 
     intro p {
-        font-size: 18px;
+        font-size: 16px;
+        weight: 600;
     }
 }
 
