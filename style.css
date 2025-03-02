@@ -39,8 +39,9 @@ header img {
 }
 
 .main p {
-    max-width: 1000px; 
-    width: 100%;
+    max-width: 850px;
+    line-height: 1.6;
+    font-size: 20px;
 }
 
 h1 {
@@ -431,6 +432,7 @@ footer .sectionthree .app {
     h2 {
         font-size: 30px;
         font-color: #fff;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -441,7 +443,9 @@ footer .sectionthree .app {
 
     .main p {
         font-size: 18px;
-        width: 60%;
+        width: 40%;
+        line-heigh: 1.6;
+    }
 }
 
 /* Media Query for larger screens */
