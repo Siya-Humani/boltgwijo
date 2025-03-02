@@ -20,7 +20,7 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
-    height: 50vh;
+    height: 80vh;
     width: auto;
     position: relative;
 }
@@ -31,7 +31,7 @@ header img {
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 22px;
 }
 
 h1 {
@@ -94,7 +94,7 @@ p {
     }
 
     h3 {
-        font-size: 25px;
+        font-size: 23px;
     }
 
     .logo {
