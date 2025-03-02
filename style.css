@@ -29,7 +29,7 @@ header img {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 100%
+    width: 80%
     height: auto;
 }
 
@@ -42,7 +42,6 @@ header img {
 
 .main p {
     max-width: 850px;
-    line-height: 1.6;
     font-size: 20px;
 }
 
@@ -445,8 +444,7 @@ footer .sectionthree .app {
 
     .main p {
         font-size: 18px;
-        width: 70%;
-        line-height: 1.6;
+        width: 90%;
     }
 }
 
