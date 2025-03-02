@@ -34,7 +34,7 @@ header img {
 .main img {
     margin-top: 5%;
     max-width: 100%;
-    width: 60%;
+    width: 40%;
     height: auto;
 }
 
@@ -443,8 +443,8 @@ footer .sectionthree .app {
 
     .main p {
         font-size: 18px;
-        width: 40%;
-        line-heigh: 1.6;
+        width: 70%;
+        line-height: 1.6;
     }
 }
 
