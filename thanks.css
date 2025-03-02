@@ -11,6 +11,7 @@ body {
     background-color: #274536;
 }
 
+/* Main layout of the page */
 .main {
     text-align: center;
     padding: 50px;
@@ -44,15 +45,31 @@ p {
     font-weight: 400;
 }
 
+/* Icon positioning */
+.icon {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px; /* Adjust spacing between icon and main */
+}
+
 .icon img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    height: 50px;
+    height: 150px;
     width: auto;
-    z-index: 1; /
     pointer-events: none;
 }
+
+/* Ensure the icon appears above main content */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
 
 
 
@@ -87,7 +104,7 @@ p {
     }
 
     .icon img {
-        height: 35px;
+        height: 135px;
         widht: auto;
     }
 
