@@ -33,14 +33,13 @@ header img {
 
 .main img {
     margin-top: 5%;
-    max-width: 100%; /* Ensure the image never exceeds the width of its container */
+    max-width: 75%; /* Ensure the image never exceeds the width of its container */
     height: auto;
 }
 
 .main p {
     max-width: 850px; /* Optional: limits the width of the paragraph for readability */
     line-height: 1.6; /* Optional: adjusts the line height for readability */
-    font-size: 20px;
 }
 
 h1 {
@@ -435,7 +434,7 @@ footer .sectionthree .app {
 
 @media screen and (max-width: 480px) {
     .main img {
-        width: 80%; /* Further reduce image width for small screens */
+        width: 70%; /* Further reduce image width for small screens */
         margin-top: 10%; /* Adjust margin-top for small mobile screens */
     }
 }
@@ -495,9 +494,8 @@ footer .sectionthree .app {
     }
 
     .main img {
-        width: 100%; /* Ensure the image is responsive */
+        width: 100%;
         height: auto;
-        margin-top: 25%;
     }
 
     .main p {
