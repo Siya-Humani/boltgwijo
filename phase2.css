@@ -1,1 +1,23 @@
+/* Universal Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", "sans-serif";
+}
+
+body {
+    background-color: #34BB78;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: "Roboto", sans-serif;
+}
+
+.section-1 {
+  align-items: center;
+  justify-content: center;
+  font-color: #fff;
+}
+
+
 
