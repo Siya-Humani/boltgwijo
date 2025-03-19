@@ -1,39 +1,568 @@
-/* Universal Styles */
+/* General reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto", "sans-serif";
 }
 
 body {
-    background-color: #34BB78;
-    width: 100%;
-    overflow-x: hidden;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #274536;
+    border-radius: 15px;
+    color: #333;
+    line-height: 1.6;
 }
 
-.section-1 {
-    align-items: center;
-    justify-content: center;
+/* Remove default list bullets */
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style the list items to align and space them evenly */
+ol li {
     display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 5px 0;
+}
+
+/* Style the microphone image */
+ol li img {
+    width: 24px;
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Ensure the text takes up the available space and is evenly spaced */
+ol li span {
+    flex-grow: 1;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.logo img {
+    max-width: 80px;
+    height: auto;
+    margin: 20px;
+}
+
+.hero img {
+    width: 50%;
+    height: auto;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.closed {
+    color: #333;
+}
+
+.custom-bullet {
+    list-style: none;
+    padding-left: 0;
+}
+
+.custom-bullet li {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.custom-bullet .bullet {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.scroll-container h1 {
+    font-size: 40px;
+    color: #f8f9fa;
+}
+
+.scroll {
+    margin-top: 20px;
+    background-color: #2A8659;
+    padding: 20px 0;
+    font-weight: bold;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+}
+
+.scroll-container {
+    display: flex;
+    animation: scrollText 10s linear infinite;
+    width: max-content;
+}
+
+.scroll h1 {
+    margin-right: 50px;
+}
+
+@keyframes scrollText {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* Section styling */
+.section {
+    position: relative;
+    max-width: 1200px;
+    height: 250px;
+    margin: 40px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+/* Add initial styles for each section */
+.section {
+    opacity: 0;
+    transform: translateY(20px); /* Start with a slight upward position */
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+/* Class to trigger when the section is visible */
+.section-visible {
+    opacity: 1;
+    transform: translateY(0); /* Reset position when the section comes into view */
+}
+
+
+.section-1 h3,
+.section-3 h3,
+.section-4 h3,
+.section-5 h3,
+.section-6 h4 {
+    margin-bottom: 20px;
+    padding: 20px 0; /* Add padding to h3 for spacing around the text */
+    font-size: 25px;
+}
+
+.section-1 p,
+.section-3 ol,
+.section-4 p,
+.section-5 ol,
+.section-6 p {
+    font-size: 16px;
+}
+
+.section-1 h3 {
+    color: #fff;
+}
+
+.section-1 h3 span {
+    color: #34BB78;
+}
+
+.section-1 p {
+    color: #fff;
+}
+
+.section-3 {
+    background-color: #fff;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.section-3 h3 {
+    color: #333;
+}
+
+.section-3 ol {
+    color: #333;
+}
+
+.section-4 {
+    background-color: #f8f9fa;
+    border-radius: 15px;
+}
+
+.section-5 {
+    background-color: #fff;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.section-5 h3 {
+    color: #333;
+}
+
+.section-5 p {
+    color: #333;
+}
+
+.section-5 ol {
+    color: #333;
+}
+
+.section-6 {
+    margin-bottom: 20px;
+}
+
+.section-6 h4 {
+    color: #fff;
+}
+
+.section-6 p {
+    color: #fff;
+}
+
+h1, h3, h4 {
+    margin-bottom: 20px;
+}
+
+p, ul, ol {
+    font-size: 1.2rem;
+    color: #333;
 }
 
 h1 {
-    font-size: 20px;
-    color: #fff;
-    align-items: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #212529;
 }
 
 h3 {
-    font-size: 16px;
-    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #212529;
+}
+
+h4 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #212529;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 1.2rem;
+}
+
+ol {
+    padding-left: 20px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Footer Layout */
+footer {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f8f8f8;
+}
+
+footer .logo img {
+    height: 80px;
+    width: auto;
+    gap: 25px;
+}
+
+footer .terms, footer .app {
+    font-size: 18px;
+    color: #333;
+}
+
+footer .sectionthree {
+    display: flex;
+    gap: 20px;
+}
+
+footer .sectionthree .terms,
+footer .sectionthree .app {
+    font-size: 18px;
+    color: #333;
+}
+
+.sectionthree {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.terms, .app {
+    border: 1px solid #333;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: inline-block;
+    border-radius: 10px;
+    color: #274536;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.social-media div {
+    width: 40px;
+    height: 40px;
+}
+
+.social-media img {
+    width: 100%;
+    height: auto;
+}
+
+.iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    width: 80%;
+    margin: 10 auto;
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Media Query for larger screens */
+@media (min-width: 1024px) {
+    .iframe-container {
+        width: 60%;
+    }
+}
+
+/* Media Query for mobile screens */
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .social-media img {
+        width: 25px;
+    }
+
+    footer .sectionthree {
+        margin-top: 15px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .sectionthree .terms, 
+    footer .sectionthree .app {
+        font-size: 12px;
+    }
+
+    footer .logo img {
+        width: 80px;
+        height: auto;
+    }
+}
+    
+/* Mobile Queries for smaller screens */
+@media (max-width: 768px) {
+    .section h1,
+    .section h3,
+    .section-5 h3,
+    .section-6 h4 {
+        font-size: 1.5rem;
+    }
+
+    .section-2 p,
+    .section-3 li,
+    .section-4 p,
+    .section-5 p {
+        font-size: 1rem;
+    }
+
+    .section-5 ol {
+        padding-left: 15px;
+    }
+
+    .hero img {
+        width: 80%;
+    }
+
+    .scroll-container h1 {
+        font-size: 30px;
+    }
+
+    .logo img {
+        max-width: 60px;
+        height: auto;
+    }
+
+    .scroll {
+        padding: 15px 0;
+    }
+
+    .scroll-container {
+        animation: scrollText 12s linear infinite;
+    }
+}
+
+/* Mobile Queries for very small screens (less than 480px) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    .section-1 h3 {
+        font-size: 1.4rem;
+    }
+
+    .section-5 ol {
+        font-size: 12px;
+    }
+
+    .section-2 p,
+    .section-3 li,
+    .section-4 p,
+    .section-5 p {
+        font-size: 12px;
+    }
+
+    .section-1 p {
+        font-size: 15px;
+    }
+
+    .section-6 p {
+        font-size: 15px;
+    }
+
+    .section-6 h4 {
+        font-size: 20px;
+    }
+
+    .section {
+        padding: 20px 10px;
+        height: auto;
+    }
+
+    .hero img {
+        width: 100%;
+    }
+
+    .scroll-container h1 {
+        font-size: 24px;
+    }
+}
+
+/* Desktop Queries for large screens */
+@media (min-width: 1024px) {
+    .section {
+        width: 100%;
+        max-width: 1200px;
+        height: auto;
+        padding: 0 50px;
+        margin: 60px auto;
+    }
+
+    .hero img {
+        width: 40%;
+    }
+
+    .scroll-container h1 {
+        font-size: 40px;
+    }
+
+    .logo img {
+        max-width: 100px;
+        height: auto;
+    }
+
+    .scroll {
+        padding: 25px 0;
+    }
+}
+
+.section {
+    width: 85%;
+    height: auto;
+}
+
+/* Remove default list bullets */
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style the list items to align and space them evenly */
+ol li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 5px 0;
+}
+
+/* Style the microphone image */
+ol li img {
+    width: 24px;
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Ensure the text takes up the available space and is evenly spaced */
+ol li span {
+    flex-grow: 1;
+    word-wrap: break-word;
+    white-space: normal;
 }
 
 
+@media (max-width: 480px) {
+    ol li {
+        flex-direction: row; /* Ensure image and text stay side by side */
+        align-items: center; /* Vertically align the image and text */
+    }
 
+    ol li img {
+        width: 25px;
+        margin-bottom: 0;
+    }
+
+    ol li span {
+        font-size: 14px;
+    }
+}
 
